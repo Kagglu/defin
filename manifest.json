@@ -1,0 +1,17 @@
+{
+	"manifest_version": 2,
+	"name": "defin*",
+	"version": "1.0",
+
+	"description": "Definitions in multiple languages in the right click menu",
+
+	"icons": {
+		"48": "icons/icon.png"
+	},
+
+	"background": {
+		"scripts": ["defin.js"]
+	},
+
+	"permissions": ["menus", "activeTab", "tabs"]
+}
